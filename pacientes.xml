@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pacientes.xsd">
+  <Pacientes>
+    <Paciente>
+        <ID>1</ID>
+        <Nombre>Juan Pérez</Nombre>
+        <Edad>45</Edad>
+        <Genero>Masculino</Genero>
+        <Diagnostico>Hipertensión</Diagnostico>
+    </Paciente>
+    <Paciente>
+        <ID>2</ID>
+        <Nombre>María López</Nombre>
+        <Edad>32</Edad>
+        <Genero>Femenino</Genero>
+        <Diagnostico>Diabetes Tipo 2</Diagnostico>
+    </Paciente>
+    <Paciente>
+        <ID>3</ID>
+        <Nombre>Carlos Sánchez</Nombre>
+        <Edad>60</Edad>
+        <Genero>Masculino</Genero>
+        <Diagnostico>Artritis</Diagnostico>
+    </Paciente>
+    <Paciente>
+        <ID>4</ID>
+        <Nombre>Fernanda Gómez</Nombre>
+        <Edad>25</Edad>
+        <Genero>Femenino</Genero>
+        <Diagnostico>Asma</Diagnostico>
+    </Paciente>
+    <Paciente>
+        <ID>5</ID>
+        <Nombre>Ricardo Ramírez</Nombre>
+        <Edad>50</Edad>
+        <Genero>Masculino</Genero>
+        <Diagnostico>Insuficiencia Renal</Diagnostico>
+    </Paciente>
+    <Paciente>
+        <ID>6</ID>
+        <Nombre>Luisa Hernández</Nombre>
+        <Edad>40</Edad>
+        <Genero>Femenino</Genero>
+        <Diagnostico>Migraña Crónica</Diagnostico>
+    </Paciente>
+    <Paciente>
+        <ID>7</ID>
+        <Nombre>Jorge Castillo</Nombre>
+        <Edad>38</Edad>
+        <Genero>Masculino</Genero>
+        <Diagnostico>Obesidad</Diagnostico>
+    </Paciente>
+    <Paciente>
+        <ID>8</ID>
+        <Nombre>Claudia Vázquez</Nombre>
+        <Edad>29</Edad>
+        <Genero>Femenino</Genero>
+        <Diagnostico>Hipotiroidismo</Diagnostico>
+    </Paciente>
+    <Paciente>
+        <ID>9</ID>
+        <Nombre>Antonio Ortega</Nombre>
+        <Edad>70</Edad>
+        <Genero>Masculino</Genero>
+        <Diagnostico>Alzheimer</Diagnostico>
+    </Paciente>
+    <Paciente>
+        <ID>10</ID>
+        <Nombre>Sofía Martínez</Nombre>
+        <Edad>22</Edad>
+        <Genero>Femenino</Genero>
+        <Diagnostico>Ansiedad Generalizada</Diagnostico>
+    </Paciente>
+</Pacientes>
+

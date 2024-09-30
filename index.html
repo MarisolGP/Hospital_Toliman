@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Tolimán</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(90deg, #8e44ad, #9b59b6);
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .header p {
+            font-size: 1.4em;
+            margin: 5px 0;
+        }
+
+        .services-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+            padding: 40px;
+            background-color: #f3e5f5;
+            overflow-x: auto;
+        }
+
+        .service {
+            text-align: center;
+            background: linear-gradient(145deg, #8e44ad, #9b59b6);
+            padding: 20px; 
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 180px; 
+            margin: 10px; 
+            text-decoration: none;
+            color: white;
+        }
+
+        .service:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .service i {
+            font-size: 40px; 
+            margin-bottom: 10px; 
+        }
+
+        .service h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .service p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .consultas-section {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(90deg, #4a148c, #6a1b9a); 
+            color: white;
+        }
+
+        .consultas-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .consultas-section .consulta-btn {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 15px 35px;
+            font-size: 18px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin: 10px;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .consulta-btn:hover {
+            background-color: #4a148c; /* Morado más intenso al hacer hover */
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50; 
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>HOSPITAL TOLIMÁN</h1>
+        <p>Porque nosotros nos preocupamos por su bienestar de su familia, sean ¡BIENVENIDOS!</p>
+        <p>Tenemos diferenter apartados que podrian interesarte da click en unos de ellos e informate</p>
+    </header>
+
+    <section class="services-section">
+        <a href="cardiologia.html" class="service">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Cardiología</h3>
+            <p>Atención integral y avanzada para el cuidado del corazón y sistema circulatorio.</p>
+        </a>
+
+        <a href="pediatria.html" class="service">
+            <i class="fas fa-baby"></i>
+            <h3>Pediatría</h3>
+            <p>Cuidado médico especializado para el bienestar de los más pequeños.</p>
+        </a>
+
+        <a href="neurologia.html" class="service">
+            <i class="fas fa-brain"></i>
+            <h3>Neurología</h3>
+            <p>Tratamientos de vanguardia para enfermedades del sistema nervioso.</p>
+        </a>
+
+        <a href="cirugia.html" class="service">
+            <i class="fas fa-user-md"></i>
+            <h3>Cirugía General</h3>
+            <p>Procedimientos quirúrgicos con los más altos estándares de seguridad y calidad.</p>
+        </a>
+
+        <a href="oftalmologia.html" class="service">
+            <i class="fas fa-eye"></i>
+            <h3>Oftalmología</h3>
+            <p>Cuidado especializado para la salud visual, desde diagnósticos hasta cirugía.</p>
+        </a>
+
+        <a href="dermatologia.html" class="service">
+            <i class="fas fa-sun"></i>
+            <h3>Dermatología</h3>
+            <p>Tratamientos avanzados para el cuidado de la piel y sus condiciones.</p>
+        </a>
+    </section>
+    <section class="consultas-section">
+        <h2>Consultas Disponibles</h2>
+        <a href="paciente.html" class="consulta-btn">Consulta de Pacientes</a>
+        <a href="doctores.html" class="consulta-btn">Consulta de Médicos</a>
+    </section>
+
+    <footer>
+        <p>Hospital Tolimán 2024 | Autor: ISC Marisol Gudiño Pérez & ISC Carlos Yael Martinez Ramos</p>
+    </footer>
+
+</body>
+</html>

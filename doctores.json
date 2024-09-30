@@ -1,0 +1,74 @@
+{
+    "Medicos": [
+        {
+            "ID": 1,
+            "Nombre": "Dr. Alejandro Mendoza",
+            "Especialidad": "Cardiología",
+            "Telefono": "555-1122",
+            "Correo": "alejandro.mendoza@hospitaltoliman.com"
+        },
+        {
+            "ID": 2,
+            "Nombre": "Dra. Valentina Reyes",
+            "Especialidad": "Pediatría",
+            "Telefono": "555-3344",
+            "Correo": "valentina.reyes@hospitaltoliman.com"
+        },
+        {
+            "ID": 3,
+            "Nombre": "Dr. Samuel Torres",
+            "Especialidad": "Neurología",
+            "Telefono": "555-5566",
+            "Correo": "samuel.torres@hospitaltoliman.com"
+        },
+        {
+            "ID": 4,
+            "Nombre": "Dra. Sofía Castro",
+            "Especialidad": "Dermatología",
+            "Telefono": "555-7788",
+            "Correo": "sofia.castro@hospitaltoliman.com"
+        },
+        {
+            "ID": 5,
+            "Nombre": "Dr. Ignacio Pérez",
+            "Especialidad": "Cirugía General",
+            "Telefono": "555-9900",
+            "Correo": "ignacio.perez@hospitaltoliman.com"
+        },
+        {
+            "ID": 6,
+            "Nombre": "Dra. Gabriela Soto",
+            "Especialidad": "Ginecología",
+            "Telefono": "555-1234",
+            "Correo": "gabriela.soto@hospitaltoliman.com"
+        },
+        {
+            "ID": 7,
+            "Nombre": "Dr. Andrés Romero",
+            "Especialidad": "Oncología",
+            "Telefono": "555-5678",
+            "Correo": "andres.romero@hospitaltoliman.com"
+        },
+        {
+            "ID": 8,
+            "Nombre": "Dra. Mariana Salinas",
+            "Especialidad": "Psiquiatría",
+            "Telefono": "555-8765",
+            "Correo": "mariana.salinas@hospitaltoliman.com"
+        },
+        {
+            "ID": 9,
+            "Nombre": "Dr. Javier Cuervo",
+            "Especialidad": "Ortopedia",
+            "Telefono": "555-4321",
+            "Correo": "javier.cuervo@hospitaltoliman.com"
+        },
+        {
+            "ID": 10,
+            "Nombre": "Dra. Teresa Rojas",
+            "Especialidad": "Oftalmología",
+            "Telefono": "555-6789",
+            "Correo": "teresa.rojas@hospitaltoliman.com"
+        }
+    ]
+}
